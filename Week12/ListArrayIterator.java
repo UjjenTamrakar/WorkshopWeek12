@@ -39,12 +39,12 @@ public class ListArrayIterator{
             System.out.println("Number Iterator: " + numberIterator.next());
         }
     
-        
+        //sizes
         System.out.println("Size of names ArrayList: " + names.size());
         System.out.println("SIze of numbers ArrayList: " + numbers.size());
         
         numbers.clear();
-        
+        //taking elements
         System.out.println("3rd element: " + names.get(2));
         System.out.println("5th element: " + names.get(4));
         names.remove(2);
